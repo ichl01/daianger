@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&family=Noto+Sans+JP:wght@700&display=swap');
+
+.page {
+    height: 100vh;
+    width: 100vw;
+    margin-left: 0;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.main>ul>li {
+    font-family: 'M PLUS 1p', sans-serif;
+    list-style: none;
+}
+
+.main>h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 0;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer>p {
+    color: white;
+    margin-left: 5%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: italic;
+}
+
+@media (min-width: 1000px) {
+
+
+
+    .main {
+        height: 60%;
+        width: 100%;
+        padding-left: 5%;
+        margin-bottom: 20vh;
+    }
+
+
+    .main>h1 {
+        font-size: 92px;
+    }
+
+    .main>ul>li {
+        font-size: 55px;
+    }
+
+    .footer {
+        background-color: #5E529C;
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+
+    }
+
+    .footer>p {
+        font-size: 13vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main {
+        height: 60%;
+        width: 100%;
+        padding-left: 5%;
+    }
+
+
+    .footer {
+        background-color: #5E529C;
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+
+    }
+
+    .footer>p {
+        color: white;
+        font-size: xx-large;
+        margin-left: 5%;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+}
+
+@media (max-width: 450px) {}
