@@ -164,6 +164,158 @@ var obj = [
     subject: "英語",
     content: "OVER ALL 2: UNIT 14・15",
     due: new Date(2023, 5, 19, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 3, 18, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 3, 21, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 3, 25, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 3, 28, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第74回",
+    due: new Date(2023, 3, 19, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第76回",
+    due: new Date(2023, 3, 20, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第78回",
+    due: new Date(2023, 3, 26, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第80回",
+    due: new Date(2023, 3, 27, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 4, 2, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第82回",
+    due: new Date(2023, 4, 24, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第84回",
+    due: new Date(2023, 4, 25, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 4, 26, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 4, 30, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第86回",
+    due: new Date(2023, 4, 31, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第87回",
+    due: new Date(2023, 5, 1, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 5, 2, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 5, 6, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第89回",
+    due: new Date(2023, 5, 8, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 5, 9, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 5, 13, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第91回",
+    due: new Date(2023, 5, 14, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第88回",
+    due: new Date(2023, 5, 15, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 5, 16, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 5, 20, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第90回",
+    due: new Date(2023, 5, 21, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第92回",
+    due: new Date(2023, 5, 22, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 5, 23, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 6, 11, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第41回",
+    due: new Date(2023, 6, 12, 0, 0)
+  },{
+    subject: "数学Ⅰ",
+    content: "今日ドリ 第42回",
+    due: new Date(2023, 6, 13, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 6, 14, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 6, 18, 0, 0)
+  },{
+    subject: "数学A",
+    content: "今日ドリ 第1回",
+    due: new Date(2023, 6, 19, 0, 0)
+  },{
+    subject: "数学A",
+    content: "今日ドリ 第3回",
+    due: new Date(2023, 6, 20, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 6, 21, 0, 0)
+  },{
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 6, 25, 0, 0)
+  },{
+    subject: "数学A",
+    content: "今日ドリ 第5回",
+    due: new Date(2023, 6, 26, 0, 0)
+  },{
+    subject: "数学A",
+    content: "今日ドリ 第7回",
+    due: new Date(2023, 6, 27, 0, 0)
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
