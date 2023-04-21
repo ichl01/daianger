@@ -22,7 +22,7 @@ var obj = [
     due: new Date(2023, 3, 24, 0, 0)
   }, {
     subject: "古文",
-    content: "プリント: 1御伽草子",
+    content: "テキスト: 1御伽草子",
     due: new Date(2023, 3, 24, 0, 0)
   }, {
     subject: "漢文",
@@ -34,7 +34,7 @@ var obj = [
     due: new Date(2023, 4, 8, 0, 0)
   }, {
     subject: "古文",
-    content: "プリント: 2古今著聞集, 3徒然草",
+    content: "テキスト: 2古今著聞集, 3徒然草",
     due: new Date(2023, 4, 8, 0, 0)
   }, {
     subject: "漢文",
@@ -46,11 +46,11 @@ var obj = [
     due: new Date(2023, 4, 22, 0, 0)
   }, {
     subject: "古文",
-    content: "プリント: 4十訓抄",
+    content: "テキスト: 4十訓抄",
     due: new Date(2023, 4, 22, 0, 0)
   }, {
     subject: "古文",
-    content: "プリント: 5花月草子",
+    content: "テキスト: 5花月草子",
     due: new Date(2023, 4, 29, 0, 0)
   }, {
     subject: "漢文",
@@ -66,7 +66,7 @@ var obj = [
     due: new Date(2023, 5, 5, 0, 0)
   }, {
     subject: "古文",
-    content: "プリント: 6伊曽保物語",
+    content: "テキスト: 6伊曽保物語",
     due: new Date(2023, 5, 12, 0, 0)
   }, {
     subject: "現代文",
@@ -74,7 +74,7 @@ var obj = [
     due: new Date(2023, 5, 19, 0, 0)
   }, {
     subject: "古文",
-    content: "プリント: 7古今著聞集",
+    content: "テキスト: 7古今著聞集",
     due: new Date(2023, 5, 19, 0, 0)
   }, {
     subject: "漢文",
@@ -86,11 +86,11 @@ var obj = [
     due: new Date(2023, 6, 10, 0, 0)
   }, {
     subject: "古文",
-    content: "プリント: 8北辺随筆",
+    content: "テキスト: 8北辺随筆",
     due: new Date(2023, 6, 10, 0, 0)
   }, {
     subject: "古文",
-    content: "プリント: 9おらが春",
+    content: "テキスト: 9おらが春",
     due: new Date(2023, 6, 18, 0, 0)
   },{
     subject: "漢文",
@@ -110,7 +110,7 @@ var obj = [
     due: new Date(2023, 7, 17, 0, 0)
   },{
     subject: "古文",
-    content: "プリント: 10今昔物語集, 14今昔物語集",
+    content: "テキスト: 10今昔物語集~14今昔物語集",
     due: new Date(2023, 7, 17, 0, 0)
   },{
     subject: "漢文",
@@ -122,7 +122,7 @@ var obj = [
     due: new Date(2023, 7, 28, 0, 0)
   },{
     subject: "古文",
-    content: "プリント: 15徒然草, 16十訓抄",
+    content: "テキスト: 15徒然草, 16十訓抄",
     due: new Date(2023, 7, 28, 0, 0)
   },{
     subject: "漢文",
@@ -316,6 +316,14 @@ var obj = [
     subject: "数学A",
     content: "今日ドリ 第7回",
     due: new Date(2023, 6, 27, 0, 0)
+  },{
+    subject: "数学",
+    content: "チャートプリント 1~7",
+    due: new Date(2023, 3, 24, 0, 0)
+  },{
+    subject: "数学",
+    content: "チャートプリント 8~14",
+    due: new Date(2023, 4, 1, 0, 0)
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
