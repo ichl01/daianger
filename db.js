@@ -324,6 +324,14 @@ var obj = [
     subject: "数学",
     content: "チャートプリント 8~14",
     due: new Date(2023, 4, 1, 0, 0)
+  },{
+    subject: "英語B",
+    content: "NTワークブック Lesson1(p.8~p.16)",
+    due: new Date(2023, 4, 8, 0, 0)
+  },{
+    subject: "論理・表現",
+    content: "EARTHRISEワークブック はじめに・Lesson1~3 (p.2~p.15)",
+    due: new Date(2023, 4, 8, 0, 0)
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
