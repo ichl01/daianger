@@ -54,3 +54,11 @@ td{
 h2{
     font-size: 25px;
 }
+.box{
+    display: flex;
+    align-items: flex-end
+}
+.box > p{
+    margin-left: 10px;
+    padding-bottom: 5px;
+}

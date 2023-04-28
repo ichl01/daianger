@@ -2,6 +2,7 @@
 var today = new Date()
 var nowdate = today.getDate();
 
+
 function homework() {
 
     for (var i = 0; i < obj.length; i++) {
@@ -27,3 +28,51 @@ function homework() {
 
 }
 window.onload = homework()
+
+
+//document.getElementById('past')
+//document.getElementById('others')
+
+const defaultupc = document.getElementById('upcoming').style.display;
+const defaultpast = document.getElementById('past').style.display;
+const defaultothers = document.getElementById('others').style.display;
+let upcdisp = true;
+let pastdisp = true;
+let othersdisp = true;
+
+function change(target){
+if(target == "upcoming"){
+    if(upcdisp == true){
+        document.getElementById('upcoming').style.display = 'none';
+        upcdisp = false;
+        document.getElementById('upcstate').innerText = "- 開く";
+    } else{
+        document.getElementById('upcoming').style.display = defaultupc;
+        upcdisp = true;
+        document.getElementById('upcstate').innerText = "- 畳む";
+    }
+
+} else if (target == "past"){
+    if(pastdisp == true){
+        document.getElementById('past').style.display = 'none';
+        pastdisp = false;
+        document.getElementById('paststate').innerText = "- 開く";
+    } else{
+        document.getElementById('past').style.display = defaultpast;
+        pastdisp = true;
+        document.getElementById('paststate').innerText = "- 畳む";
+    }
+} else{
+    if(othersdisp == true){
+        document.getElementById('others').style.display = 'none';
+        othersdisp = false;
+        document.getElementById('othersstate').innerText = "- 開く";
+    } else{
+        document.getElementById('others').style.display = defaultothers;
+        othersdisp = true;
+        document.getElementById('othersstate').innerText = "- 畳む";
+    }
+}
+}
+change('past')
+change('others')
