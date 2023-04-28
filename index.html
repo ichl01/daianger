@@ -10,6 +10,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="./manifest.json">
+    <script>if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./serviceworker.js').then(function () {
+                console.log("Service Worker is registered!!");
+            });
+        }
+    </script>
+
 </head>
 
 <body>
