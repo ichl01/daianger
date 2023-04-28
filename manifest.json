@@ -2,7 +2,7 @@
   "name"              : "Daianger",
   "short_name"        : "Daianger",
   "description"       : "Daiangerのアプリ",
-  "start_url"         : "/?pwa=1",
+  "start_url"         : "/daianger",
   "display"           : "standalone",
   "background_color"  : "#ff0000",
   "theme_color"       : "#ff0000",
