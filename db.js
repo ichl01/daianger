@@ -340,6 +340,14 @@ var obj = [
     subject: "英語B",
     content: "ブレイクスルー英文法27章 ブレイクスルー動名詞、分詞(pp.46〜56) (復習問題は任意)",
     due: new Date(2023, 4, 10, 0, 0)
+  },{
+    subject: "数学",
+    content: "ハイレベル模試過去問に挑戦プリント",
+    due: new Date(2023, 4, 8, 0, 0)
+  },{
+    subject: "数学",
+    content: "ノートにチャートの例題を20問以上解く",
+    due: new Date(2023, 4, 8, 0, 0)
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
