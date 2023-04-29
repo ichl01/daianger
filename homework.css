@@ -45,9 +45,9 @@ body {
 .homework {
     padding-left: 10px;
     margin-bottom: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    border-radius: 18px;
 }
 
 td {
