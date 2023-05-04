@@ -1,7 +1,6 @@
 .homeworks > ul{
     list-style: none;
 }
-a{
-    color:inherit;
-    text-decoration: none;
+.nodot{
+    list-style: none;
 }

@@ -25,21 +25,83 @@
     <div class="main">
         <div class="homeworks" id="homeworks">
             <h1><span class="italic">Daianger</span></h1>
+            <ul class="links">
+                <div onclick="go('./homework.html')">
+                    <li>
+                        <h2>課題</h2>
+                    </li>
+                    <li id="upcoming"></li>
+                    <ul>
+                        <li class="nodot">もっと見る</li>
+                    </ul>
+                </div>
+                <div onclick="go('./exam.html')">
+                    <li>
+                        <h2>テスト範囲</h2>
+                    </li>
+                    <li>
+                        <div class="homework" style="padding-right: 10px;">
+                            <ul>
+                                <li>
+                                    <h2>公共β</h2>
+                                </li>
+                                <ul>
+                                    <li>教科書P18まで</li>
+                                    <li>資料集P24、P32-P33まで</li>
+                                    <li>サブノートP9のQ1まで</li>
+                                    <li>配布したプリント</li>
+                                    <li>授業中言及した内容等</li>
+                                </ul>
+
+                    </li>
+            </ul>
             <ul>
                 <li>
-                    <h2 onclick="go('./homework.html')">課題</h2>
+                    <h2>現代文</h2>
                 </li>
-                <li>
-                    <h2 onclick="go('./exam.html')">テスト範囲(作成中)</h2>
-                </li>
-                <li>
-                    <h2 onclick="go('./things.html')">お知らせ</h2>
+                <ul>
+                    <li>①教科書P12〜27「生きものとして生きる」
+                    </li>
+                    <li>「本当の自分幻想」</li>
+                    <ul>
+                        <li> P18・27「評論のしるべ」も目を通しておいてください。章末問題の解答は添付資料を参照のこと。</li>
+                    </ul>
+                    <li>②週末課題「プログレス現代文基礎編」大問１〜４</li>
+                </ul>
+
                 </li>
             </ul>
+            <ul>
+                <li>
+                    <h2>漢文</h2>
+                </li>
+                <ul>
+                    <li>教科書: P172〜173「完璧」</li>
+                    <li>週末課題「基礎漢文」入門〜５論語まで</li>
+                    <ul>句法プリント(プリントは５月２日配布。)</ul>
+                </ul>
 
+                </li>
+                <div style="height: 20px;"></div>
+            </ul>
         </div>
+        </li>
+        <ul><li class="nodot">
+            もっと見る
+        </li></ul>
     </div>
-<script src="../js/move.js"></script>
+    <li>
+        <h2 onclick="go('./things.html')">お知らせ</h2>
+    </li>
+    </ul>
+
+    </div>
+    </div>
+
+    <script src="../js/move.js"></script>
+    <script src="../js/db.js"></script>
+    <script src="../js/index.js"></script>
+    <script>shomework()</script>
 </body>
 
 </html>
