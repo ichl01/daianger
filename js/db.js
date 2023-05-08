@@ -440,7 +440,12 @@ var obj = [
     content: "ALL EARS STANDARD: Lesson1~10",
     due: new Date(2023, 4, 29, 0, 0),
     id: 87
-  },];
+  }, {
+    subject: "物理",
+    content: "センサーP.8~19 にある Step1 の例題と Step2 の問題(提出日:テストの日)",
+    due: new Date(2023, 4, 16, 0, 0),
+    id: 88
+  }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
   if (a.due > b.due) {
