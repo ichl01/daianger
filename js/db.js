@@ -442,9 +442,54 @@ var obj = [
     id: 87
   }, {
     subject: "物理",
-    content: "センサーP.8~19 にある Step1 の例題と Step2 の問題(提出日:テストの日)",
+    content: "センサーP.8~19 にある Step1 の例題と Step2 の問題",
     due: new Date(2023, 4, 16, 0, 0),
     id: 88
+  }, {
+    subject: "英語A",
+    content: "英語Aノート",
+    due: new Date(2023, 4, 16, 0, 0),
+    id: 89
+  }, {
+    subject: "英語A",
+    content: "Advanced Exercise / Workbook Lesson 1,2",
+    due: new Date(2023, 4, 16, 0, 0),
+    id: 90
+  }, {
+    subject: "数学A",
+    content: "数学A用ノート(数学Aの教科書p.56~79の「練習」および「問題」「演習問題A,B」を解いて提出)",
+    due: new Date(2023, 4, 19, 0, 0),
+    id: 91
+  }, {
+    subject: "古文",
+    content: "試験範囲のノート",
+    due: new Date(2023, 4, 17, 0, 0),
+    id: 92
+  }, {
+    subject: "論理・表現",
+    content: "Workbook Lesson 4",
+    due: new Date(2023, 4, 17, 0, 0),
+    id: 93
+  }, {
+    subject: "公共α",
+    content: "スタディーノート",
+    due: new Date(2023, 4, 18, 0, 0),
+    id: 94
+  }, {
+    subject: "公共α",
+    content: "ファイル",
+    due: new Date(2023, 4, 18, 0, 0),
+    id: 95
+  }, {
+    subject: "英語B",
+    content: "英語Bファイル",
+    due: new Date(2023, 4, 18, 0, 0),
+    id: 96
+  }, {
+    subject: "化学基礎",
+    content: "TSPNo.16~18",
+    due: new Date(2023, 4, 19, 0, 0),
+    id: 97
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
