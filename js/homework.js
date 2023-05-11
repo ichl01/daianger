@@ -3,6 +3,7 @@
 //現在の日付を取得
 var today = new Date()
 var nowdate = today.getDate();
+var execdate = new Date(0,0,1,1,1);
 
 
 function homework() {
@@ -15,10 +16,17 @@ function homework() {
         //console.log("due: " + monthdue + "/" + datedue)
 
         //要素を挿入
-        let content = '<div class="homework"><input type="hidden" value=' + obj[i].id + '><table><tr><td>教科:</td><td>' + obj[i].subject + '</td></tr><tr><td>範囲:</td><td>' + obj[i].content + '</td></tr><tr><td>提出日:</td><td>' + monthdue + "月" + datedue + "日" + '</td></tr></table></div>'
+        let content = '<div class="homework"><input type="hidden" value=' + obj[i].id + '><table><tr><td>教科:</td><td>' + obj[i].subject + '</td></tr><tr><td>範囲:</td><td>' + obj[i].content + '</td></tr></table></div>'
+        let contentbegin = '<h3>'+monthdue+'月'+datedue+'日</h3>'
         if ((obj[i].due - today) / (1000 * 60 * 60 * 24) <= 7 && obj[i].due - today > 0) {
-
-            document.getElementById('upcoming').insertAdjacentHTML('beforeend', content)
+            if(datedue == execdate.getDate()){
+                document.getElementById('upcoming').insertAdjacentHTML('beforeend', content)
+            }else if(obj[i].due != execdate){
+                execdate = obj[i].due;
+                document.getElementById('upcoming').insertAdjacentHTML('beforeend', contentbegin)
+                document.getElementById('upcoming').insertAdjacentHTML('beforeend', content)
+            }
+                
         } else if (obj[i].due - today < 0) {
             document.getElementById('past').insertAdjacentHTML('beforeend', content);
         } else {

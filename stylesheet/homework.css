@@ -88,3 +88,6 @@ h2 {
     font-family: 'Jost', 'Noto Sans JP', sans-serif;
     font-weight: 500;
 }
+.group{
+    border-radius: 18px;
+}
