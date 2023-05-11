@@ -28,9 +28,23 @@ function homework() {
             }
                 
         } else if (obj[i].due - today < 0) {
-            document.getElementById('past').insertAdjacentHTML('beforeend', content);
+            if(datedue == execdate.getDate()){
+                document.getElementById('past').insertAdjacentHTML('beforeend', content)
+            }else if(obj[i].due != execdate){
+                execdate = obj[i].due;
+                document.getElementById('past').insertAdjacentHTML('beforeend', contentbegin)
+                document.getElementById('past').insertAdjacentHTML('beforeend', content)
+            }
+         
         } else {
-            document.getElementById('others').insertAdjacentHTML('beforeend', content);
+            if(datedue == execdate.getDate()){
+                document.getElementById('others').insertAdjacentHTML('beforeend', content)
+            }else if(obj[i].due != execdate){
+                execdate = obj[i].due;
+                document.getElementById('others').insertAdjacentHTML('beforeend', contentbegin)
+                document.getElementById('others').insertAdjacentHTML('beforeend', content)
+            }
+         
 
         }
         //1つ目のif:7日以内の課題を振り分け

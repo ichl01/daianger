@@ -457,7 +457,7 @@ var obj = [
     id: 90
   }, {
     subject: "数学A",
-    content: "数学A用ノート(数学Aの教科書p.56~79の「練習」および「問題」「演習問題A,B」を解いて提出)",
+    content: "数学A用ノート(数学Aの教科書p.77~79の「問題」「演習問題A,B」を解いて提出)",
     due: new Date(2023, 4, 19, 0, 0),
     id: 91
   }, {
@@ -490,6 +490,16 @@ var obj = [
     content: "TSPNo.16~18",
     due: new Date(2023, 4, 19, 0, 0),
     id: 97
+  }, {
+    subject: "生物基礎",
+    content: "授業プリント: No1~No9を完成させたものをノートに貼って提出",
+    due: new Date(2023, 4, 18, 0, 0),
+    id: 98
+  }, {
+    subject: "生物基礎",
+    content: "プログレス生物基礎: P6~P13を丸付けして提出",
+    due: new Date(2023, 4, 18, 0, 0),
+    id: 99
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
