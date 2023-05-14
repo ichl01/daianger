@@ -32,8 +32,9 @@ function homework() {
                 document.getElementById('past').insertAdjacentHTML('beforeend', content)
             }else if(obj[i].due != execdate){
                 execdate = obj[i].due;
-                document.getElementById('past').insertAdjacentHTML('beforeend', contentbegin)
-                document.getElementById('past').insertAdjacentHTML('beforeend', content)
+                document.getElementById('past').insertAdjacentHTML('afterbegin', content)
+                document.getElementById('past').insertAdjacentHTML('afterbegin', contentbegin)
+              
             }
          
         } else {
