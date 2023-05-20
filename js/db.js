@@ -1,56 +1,6 @@
 //データベース
 var obj = [
   {
-    subject: "英語",
-    content: "テスト直し",
-    due: new Date(2023, 3, 21, 0, 0),
-    id: 0
-  }, {
-    subject: "国語",
-    content: "プリント2枚",
-    due: new Date(2023, 3, 17, 0, 0),
-    id: 1
-  }, {
-    subject: "数学",
-    content: "テスト直し & 発展課題",
-    due: new Date(2023, 3, 17, 0, 0),
-    id: 2
-  }, {
-    subject: "英語",
-    content: "Breakthrough Workbook P.24〜P.35",
-    due: new Date(2023, 3, 17, 0, 0),
-    id: 3
-  }, {
-    subject: "現代文",
-    content: "プリント: 2(随)山内美郷",
-    due: new Date(2023, 3, 24, 0, 0),
-    id: 4
-  }, {
-    subject: "古文",
-    content: "テキスト: 1御伽草子",
-    due: new Date(2023, 3, 24, 0, 0),
-    id: 5
-  }, {
-    subject: "漢文",
-    content: "プリント: 1「説苑」",
-    due: new Date(2023, 4, 1, 0, 0),
-    id: 6
-  }, {
-    subject: "現代文",
-    content: "プリント: 3(評)平野啓一郎, 4(小)川端康成",
-    due: new Date(2023, 4, 8, 0, 0),
-    id: 7
-  }, {
-    subject: "古文",
-    content: "テキスト: 2古今著聞集, 3徒然草",
-    due: new Date(2023, 4, 8, 0, 0),
-    id: 8
-  }, {
-    subject: "漢文",
-    content: "プリント: 3「十八史略」~5「論語」まで",
-    due: new Date(2023, 4, 8, 0, 0),
-    id: 9
-  }, {
     subject: "現代文",
     content: "プリント: 5(評)鈴木孝夫",
     due: new Date(2023, 4, 22, 0, 0),
@@ -161,26 +111,6 @@ var obj = [
     due: new Date(2023, 7, 28, 0, 0),
     id: 31
   }, {
-    subject: "数学A",
-    content: "授業プリント2枚(先週の)",
-    due: new Date(2023, 3, 20, 0, 0),
-    id: 32
-  }, {
-    subject: "英語",
-    content: "OVER ALL 2: UNIT 1・2",
-    due: new Date(2023, 3, 24, 0, 0),
-    id: 33
-  }, {
-    subject: "英語",
-    content: "Breakthrough ワークブック p.44~55,p.64~69",
-    due: new Date(2023, 4, 8, 0, 0),
-    id: 34
-  }, {
-    subject: "英語",
-    content: "OVER ALL 2: UNIT 3~7",
-    due: new Date(2023, 4, 8, 0, 0),
-    id: 35
-  }, {
     subject: "英語",
     content: "Breakthrough ワークブック p.76~p.89",
     due: new Date(2023, 4, 22, 0, 0),
@@ -205,51 +135,6 @@ var obj = [
     content: "OVER ALL 2: UNIT 14・15",
     due: new Date(2023, 5, 19, 0, 0),
     id: 40
-  }, {
-    subject: "数学",
-    content: "挑戦状",
-    due: new Date(2023, 3, 18, 0, 0),
-    id: 41
-  }, {
-    subject: "数学",
-    content: "挑戦状",
-    due: new Date(2023, 3, 21, 0, 0),
-    id: 42
-  }, {
-    subject: "数学",
-    content: "挑戦状",
-    due: new Date(2023, 3, 25, 0, 0),
-    id: 43
-  }, {
-    subject: "数学",
-    content: "挑戦状",
-    due: new Date(2023, 3, 28, 0, 0),
-    id: 44
-  }, {
-    subject: "数学Ⅰ",
-    content: "今日ドリ 第74回",
-    due: new Date(2023, 3, 19, 0, 0),
-    id: 45
-  }, {
-    subject: "数学Ⅰ",
-    content: "今日ドリ 第76回",
-    due: new Date(2023, 3, 20, 0, 0),
-    id: 46
-  }, {
-    subject: "数学Ⅰ",
-    content: "今日ドリ 第78回",
-    due: new Date(2023, 3, 26, 0, 0),
-    id: 47
-  }, {
-    subject: "数学Ⅰ",
-    content: "今日ドリ 第80回",
-    due: new Date(2023, 3, 27, 0, 0),
-    id: 48
-  }, {
-    subject: "数学",
-    content: "挑戦状",
-    due: new Date(2023, 4, 2, 0, 0),
-    id: 49
   }, {
     subject: "数学Ⅰ",
     content: "今日ドリ 第82回",
@@ -395,111 +280,46 @@ var obj = [
     content: "今日ドリ 第7回",
     due: new Date(2023, 6, 27, 0, 0),
     id: 78
-  }, {
-    subject: "数学",
-    content: "チャートプリント 1~7",
-    due: new Date(2023, 3, 24, 0, 0),
-    id: 79
-  }, {
-    subject: "数学",
-    content: "チャートプリント 8~14",
-    due: new Date(2023, 4, 1, 0, 0),
-    id: 80
-  }, {
-    subject: "英語B",
-    content: "NTワークブック Lesson1(p.8~p.16)",
-    due: new Date(2023, 4, 8, 0, 0),
-    id: 81
-  }, {
-    subject: "論理・表現",
-    content: "EARTHRISEワークブック はじめに・Lesson1~3 (p.2~p.15)",
-    due: new Date(2023, 4, 8, 0, 0),
-    id: 82
-  }, {
-    subject: "英語B",
-    content: "ブレイクスルー英文法27章 助動詞、受動態 (pp.26〜36 A) (復習問題は任意)",
-    due: new Date(2023, 4, 1, 0, 0),
-    id: 83
-  }, {
-    subject: "英語B",
-    content: "ブレイクスルー英文法27章 ブレイクスルー動名詞、分詞(pp.46〜56) (復習問題は任意)",
-    due: new Date(2023, 4, 10, 0, 0),
-    id: 84
-  }, {
-    subject: "数学",
-    content: "ハイレベル模試過去問に挑戦プリント",
-    due: new Date(2023, 4, 8, 0, 0),
-    id: 85
-  }, {
-    subject: "数学",
-    content: "ノートにチャートの例題を20問以上解く",
-    due: new Date(2023, 4, 8, 0, 0),
-    id: 86
-  }, {
+  },  {
     subject: "英語",
     content: "ALL EARS STANDARD: Lesson1~10",
     due: new Date(2023, 4, 29, 0, 0),
     id: 87
   }, {
-    subject: "物理",
-    content: "センサーP.8~19 にある Step1 の例題と Step2 の問題",
-    due: new Date(2023, 4, 16, 0, 0),
-    id: 88
-  }, {
-    subject: "英語A",
-    content: "英語Aノート",
-    due: new Date(2023, 4, 16, 0, 0),
-    id: 89
-  }, {
-    subject: "英語A",
-    content: "Advanced Exercise / Workbook Lesson 1,2",
-    due: new Date(2023, 4, 16, 0, 0),
-    id: 90
-  }, {
-    subject: "数学A",
-    content: "数学A用ノート(数学Aの教科書p.77~79の「問題」「演習問題A,B」を解いて提出)",
+    subject: "お知らせ",
+    content: "中間考査以前の課題は削除いしました。お問い合わせいただければお探ししますのでお求めの方はサイト管理者までお問い合わせください。",
     due: new Date(2023, 4, 19, 0, 0),
-    id: 91
-  }, {
-    subject: "古文",
-    content: "試験範囲のノート",
-    due: new Date(2023, 4, 17, 0, 0),
-    id: 92
-  }, {
-    subject: "論理・表現",
-    content: "Workbook Lesson 4",
-    due: new Date(2023, 4, 17, 0, 0),
-    id: 93
-  }, {
-    subject: "公共α",
-    content: "スタディーノート",
-    due: new Date(2023, 4, 18, 0, 0),
-    id: 94
-  }, {
-    subject: "公共α",
-    content: "ファイル",
-    due: new Date(2023, 4, 18, 0, 0),
-    id: 95
-  }, {
-    subject: "英語B",
-    content: "英語Bファイル",
-    due: new Date(2023, 4, 18, 0, 0),
-    id: 96
-  }, {
-    subject: "化学基礎",
-    content: "TSPNo.16~18",
-    due: new Date(2023, 4, 19, 0, 0),
-    id: 97
-  }, {
-    subject: "生物基礎",
-    content: "授業プリント: No1~No9を完成させたものをノートに貼って提出",
-    due: new Date(2023, 4, 18, 0, 0),
-    id: 98
-  }, {
-    subject: "生物基礎",
-    content: "プログレス生物基礎: P6~P13を丸付けして提出",
-    due: new Date(2023, 4, 18, 0, 0),
     id: 99
+  }, {
+    subject: "数学",
+    content: "進研模試過去問2021に挑戦",
+    due: new Date(2023, 4, 22, 0, 0),
+    id: 100
+  }, {
+    subject: "数学Ⅰ+A",
+    content: "中間考査直し",
+    due: new Date(2023, 4, 29, 0, 0),
+    id: 101
+  }, {
+    subject: "数学",
+    content: "進研模試過去問2020に挑戦",
+    due: new Date(2023, 5, 5, 0, 0),
+    id: 102
+  }, {
+    subject: "数学",
+    content: "実力考査直し",
+    due: new Date(2023, 5, 12, 0, 0),
+    id: 103
+  }, {
+    subject: "数学",
+    content: "進研模試過去問2019に挑戦",
+    due: new Date(2023, 5, 19, 0, 0),
+    id: 104
+  }, {
+    subject: "数学",
+    content: "(数学Ⅰ+A一学期中間考査合計150点以上の人と希望者) 駿台ハイレベル模試(一部)をノートに問題を貼って解いて提出",
+    due: new Date(2023, 4, 29, 0, 0),
+    id: 105
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {

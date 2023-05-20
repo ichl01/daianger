@@ -28,13 +28,12 @@ function homework() {
             }
                 
         } else if (obj[i].due - today < 0) {
-            if(datedue == execdate.getDate()){
+            if(monthdue == execdate.getMonth()&&(datedue == execdate.getDate())){
                 document.getElementById('past').insertAdjacentHTML('beforeend', content)
             }else if(obj[i].due != execdate){
                 execdate = obj[i].due;
                 document.getElementById('past').insertAdjacentHTML('afterbegin', content)
                 document.getElementById('past').insertAdjacentHTML('afterbegin', contentbegin)
-              
             }
          
         } else {
