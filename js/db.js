@@ -320,6 +320,16 @@ var obj = [
     content: "(数学Ⅰ+A一学期中間考査合計150点以上の人と希望者) 駿台ハイレベル模試(一部)をノートに問題を貼って解いて提出",
     due: new Date(2023, 4, 29, 0, 0),
     id: 105
+  }, {
+    subject: "英語A",
+    content: "テスト直し",
+    due: new Date(2023, 5, 2, 0, 0),
+    id: 106
+  }, {
+    subject: "論理・表現",
+    content: "テスト直し",
+    due: new Date(2023, 5, 2, 0, 0),
+    id: 107
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
