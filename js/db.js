@@ -340,6 +340,11 @@ var obj = [
     content: "ALL EARS STANDARD",
     due: new Date(2023, 5, 26, 0, 0),
     id: 109
+  }, {
+    subject: "古文",
+    content: "テスト直し",
+    due: new Date(2023, 5, 12, 0, 0),
+    id: 109
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
