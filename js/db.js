@@ -33,7 +33,7 @@ var obj = [
   }, {
     subject: "古文",
     content: "テキスト: 6伊曽保物語",
-    due: new Date(2023, 5, 12, 0, 0),
+    due: new Date(2023, 5, 19, 0, 0),
     id: 16
   }, {
     subject: "現代文",
@@ -43,7 +43,7 @@ var obj = [
   }, {
     subject: "古文",
     content: "テキスト: 7古今著聞集",
-    due: new Date(2023, 5, 19, 0, 0),
+    due: new Date(2023, 6, 10, 0, 0),
     id: 18
   }, {
     subject: "漢文",
@@ -58,14 +58,9 @@ var obj = [
   }, {
     subject: "古文",
     content: "テキスト: 8北辺随筆",
-    due: new Date(2023, 6, 10, 0, 0),
-    id: 21
-  }, {
-    subject: "古文",
-    content: "テキスト: 9おらが春",
     due: new Date(2023, 6, 18, 0, 0),
-    id: 22
-  }, {
+    id: 21
+  },  {
     subject: "漢文",
     content: "プリント: 9「三国志」",
     due: new Date(2023, 6, 18, 0, 0),
@@ -87,7 +82,7 @@ var obj = [
     id: 26
   }, {
     subject: "古文",
-    content: "テキスト: 10今昔物語集~14今昔物語集",
+    content: "テキスト: 9おらが春~13宇治拾遺物語",
     due: new Date(2023, 7, 17, 0, 0),
     id: 27
   }, {
@@ -102,7 +97,7 @@ var obj = [
     id: 29
   }, {
     subject: "古文",
-    content: "テキスト: 15徒然草, 16十訓抄",
+    content: "テキスト: 14今昔物語集,15徒然草",
     due: new Date(2023, 7, 28, 0, 0),
     id: 30
   }, {

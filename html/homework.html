@@ -12,10 +12,10 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="manifest" href="../js/manifest.json">
     <script>if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('../js/service-worker.js').then(function () {
-            console.log("Service Worker is registered!!");
-        });
-    }
+            navigator.serviceWorker.register('../js/service-worker.js').then(function () {
+                console.log("Service Worker is registered!!");
+            });
+        }
     </script>
 
 </head>
@@ -25,15 +25,23 @@
         <div class="homeworks" id="homeworks">
             <h1>課題 - <span class="italic">Daianger</span></h1>
             <p class="navi"><a href="./index.html"> ← BACK</a></p>
-            <div class="homework"><h2>お知らせ</h2>
-            <p>古文の課題が一週間遅れております。(ex:今週提出の課題→来週に)<br>なので処理し終わるまで過去の課題の欄からご覧ください</p></div>
-            <div class="box"><h2>7日以内</h2> <p onclick="change('upcoming')" id="upcstate">- 畳む</p></div>
+           
+            <div class="box">
+                <h2>7日以内</h2>
+                <p onclick="change('upcoming')" id="upcstate">- 畳む</p>
+            </div>
             <div id="upcoming"></div>
-            <div class="box"><h2>その他</h2> <p onclick="change('others')" id="othersstate">- 畳む</p></div>
+            <div class="box">
+                <h2>その他</h2>
+                <p onclick="change('others')" id="othersstate">- 畳む</p>
+            </div>
             <div id="others"></div>
-            <div class="box"><h2>過去の課題</h2> <p onclick="change('past')" id="paststate">- 畳む</p></div>
+            <div class="box">
+                <h2>過去の課題</h2>
+                <p onclick="change('past')" id="paststate">- 畳む</p>
+            </div>
             <div id="past"></div>
-          
+
 
         </div>
     </div>
