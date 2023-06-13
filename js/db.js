@@ -60,7 +60,7 @@ var obj = [
     content: "テキスト: 8北辺随筆",
     due: new Date(2023, 6, 18, 0, 0),
     id: 21
-  },  {
+  }, {
     subject: "漢文",
     content: "プリント: 9「三国志」",
     due: new Date(2023, 6, 18, 0, 0),
@@ -275,7 +275,7 @@ var obj = [
     content: "今日ドリ 第7回",
     due: new Date(2023, 6, 27, 0, 0),
     id: 78
-  },  {
+  }, {
     subject: "英語",
     content: "ALL EARS STANDARD: Lesson1~10",
     due: new Date(2023, 4, 29, 0, 0),
@@ -340,6 +340,31 @@ var obj = [
     content: "テスト直し",
     due: new Date(2023, 5, 12, 0, 0),
     id: 109
+  }, {
+    subject: "英語",
+    content: "WIDE ANGLE Book 3: Lesson 1,2",
+    due: new Date(2023, 5, 26, 0, 0),
+    id: 110
+  }, {
+    subject: "英語",
+    content: "WIDE ANGLE Book 3: Lesson 3,4",
+    due: new Date(2023, 6, 10, 0, 0),
+    id: 111
+  }, {
+    subject: "英語",
+    content: "WIDE ANGLE Book 3: Lesson 5,6",
+    due: new Date(2023, 6, 18, 0, 0),
+    id: 112
+  }, {
+    subject: "英語",
+    content: "WIDE ANGLE Book 3: Lesson 7,8",
+    due: new Date(2023, 6, 24, 0, 0),
+    id: 113
+  }, {
+    subject: "英語",
+    content: "WIDE ANGLE Book 3: Lesson 9~15",
+    due: new Date(2023, 7, 17, 0, 0),
+    id: 114
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
