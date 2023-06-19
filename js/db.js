@@ -365,6 +365,11 @@ var obj = [
     content: "WIDE ANGLE Book 3: Lesson 9~15",
     due: new Date(2023, 7, 17, 0, 0),
     id: 114
+  }, {
+    subject: "物理基礎",
+    content: "センサーP.16,20~27にあるStep1の例題とStep2の例題(Step2の31以外) (提出日:テスト実施日)",
+    due: new Date(2023, 6, 3, 0, 0),
+    id: 115
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
