@@ -370,6 +370,11 @@ var obj = [
     content: "センサーP.16,20~27にあるStep1の例題とStep2の例題(Step2の31以外) (提出日:テスト実施日)",
     due: new Date(2023, 6, 3, 0, 0),
     id: 115
+  }, {
+    subject: "公共β",
+    content: "サブノート P.10~P.13",
+    due: new Date(2023, 5, 29, 0, 0),
+    id: 116
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
