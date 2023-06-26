@@ -430,6 +430,11 @@ var obj = [
     content: "Advanced Exercise / Workbook Lesson3~5",
     due: new Date(2023, 6, 6, 0, 0),
     id: 128
+  }, {
+    subject: "英語B",
+    content: "Breakthrough英文法27章 Optional 10 仮定法 L27 話法 (P.76~P.79) (授業で行う)",
+    due: new Date(2023, 5, 28, 0, 0),
+    id: 129
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
