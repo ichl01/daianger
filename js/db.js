@@ -368,13 +368,68 @@ var obj = [
   }, {
     subject: "物理基礎",
     content: "センサーP.16,20~27にあるStep1の例題とStep2の例題(Step2の31以外) (提出日:テスト実施日)",
-    due: new Date(2023, 6, 3, 0, 0),
+    due: new Date(2023, 6, 5, 0, 0),
     id: 115
+  }, {
+    subject: "情報",
+    content: "ノート 第一章",
+    due: new Date(2023, 6, 3, 0, 0),
+    id: 117
+  }, {
+    subject: "古文",
+    content: "授業ノート",
+    due: new Date(2023, 6, 4, 0, 0),
+    id: 118
   }, {
     subject: "公共β",
     content: "サブノート P.10~P.13",
     due: new Date(2023, 5, 29, 0, 0),
-    id: 116
+    id: 119
+  }, {
+    subject: "公共α",
+    content: "スタディノート P.42~P.57",
+    due: new Date(2023, 6, 4, 0, 0),
+    id: 120
+  }, {
+    subject: "現代文",
+    content: "授業ノート",
+    due: new Date(2023, 6, 5, 0, 0),
+    id: 121
+  }, {
+    subject: "論理・表現",
+    content: "Workbook Lesson 5~9(p.20~p.39)",
+    due: new Date(2023, 6, 5, 0, 0),
+    id: 122
+  }, {
+    subject: "英語B",
+    content: "英語Bファイル",
+    due: new Date(2023, 6, 3, 0, 0),
+    id: 123
+  }, {
+    subject: "英語B",
+    content: "Workbook Lesson 2~3",
+    due: new Date(2023, 6, 3, 0, 0),
+    id: 124
+  }, {
+    subject: "数学A",
+    content: "授業プリント No.16,17",
+    due: new Date(2023, 6, 4, 0, 0),
+    id: 125
+  }, {
+    subject: "漢文",
+    content: "授業ノート",
+    due: new Date(2023, 6, 6, 0, 0),
+    id: 126
+  }, {
+    subject: "英語A",
+    content: "英語Aノート",
+    due: new Date(2023, 6, 6, 0, 0),
+    id: 127
+  }, {
+    subject: "英語A",
+    content: "Advanced Exercise / Workbook Lesson3~5",
+    due: new Date(2023, 6, 6, 0, 0),
+    id: 128
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
