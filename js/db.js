@@ -435,6 +435,31 @@ var obj = [
     content: "Breakthrough英文法27章 Optional 10 仮定法 L27 話法 (P.76~P.79) (授業で行う)",
     due: new Date(2023, 5, 28, 0, 0),
     id: 129
+  }, {
+    subject: "化学基礎",
+    content: "徹底ドリル p.22~p.25,p.26の3",
+    due: new Date(2023, 6, 3, 0, 0),
+    id: 130
+  }, {
+    subject: "情報Ⅰ",
+    content: "資料ノート P2~23、P92 1 2",
+    due: new Date(2023, 6, 3, 0, 0),
+    id: 131
+  }, {
+    subject: "地理総合",
+    content: "授業プリント(B5ファイルに挟んで提出)",
+    due: new Date(2023, 6, 7, 0, 0),
+    id: 132
+  }, {
+    subject: "生物基礎",
+    content: "授業プリント: No.10~No.22の範囲を完成させたものをノートに貼って提出",
+    due: new Date(2023, 6, 7, 0, 0),
+    id: 133
+  }, {
+    subject: "生物基礎",
+    content: "プログレス生物基礎: P14~P37",
+    due: new Date(2023, 6, 7, 0, 0),
+    id: 134
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
