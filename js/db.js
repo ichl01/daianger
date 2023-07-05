@@ -460,6 +460,36 @@ var obj = [
     content: "プログレス生物基礎: P14~P37",
     due: new Date(2023, 6, 7, 0, 0),
     id: 134
+  }, {
+    subject: "歴史総合",
+    content: "ノート提出",
+    due: new Date(2023, 6, 6, 0, 0),
+    id: 135
+  }, {
+    subject: "数学",
+    content: "チャートプリント 15~22 (確率はきちんと説明を書くこと)",
+    due: new Date(2023, 6, 10, 0, 0),
+    id: 136
+  }, {
+    subject: "数学",
+    content: "チャートプリント 23~26 (確率はきちんと説明を書くこと)",
+    due: new Date(2023, 6, 18, 0, 0),
+    id: 137
+  }, {
+    subject: "数学",
+    content: "テスト直し",
+    due: new Date(2023, 6, 18, 0, 0),
+    id: 138
+  }, {
+    subject: "数学",
+    content: "応用問題(数学期末合計点数が140点以上の人)",
+    due: new Date(2023, 6, 18, 0, 0),
+    id: 139
+  }, {
+    subject: "進路",
+    content: "「夢ナビLive参加ガイド」に感想を書いて提出",
+    due: new Date(2023, 6, 18, 0, 0),
+    id: 140
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
