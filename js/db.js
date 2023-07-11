@@ -490,6 +490,11 @@ var obj = [
     content: "「夢ナビLive参加ガイド」に感想を書いて提出",
     due: new Date(2023, 6, 18, 0, 0),
     id: 140
+  }, {
+    subject: "英語",
+    content: "テスト直し(7/17?)",
+    due: new Date(2023, 6, 17, 0, 0),
+    id: 140
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
