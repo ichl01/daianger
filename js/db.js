@@ -492,9 +492,34 @@ var obj = [
     id: 140
   }, {
     subject: "英語",
-    content: "テスト直し(7/17?)",
+    content: "テスト直し",
     due: new Date(2023, 6, 17, 0, 0),
-    id: 140
+    id: 141
+  }, {
+    subject: "公共Β",
+    content: "プリント",
+    due: new Date(2023, 7, 28, 0, 0),
+    id: 142
+  }, {
+    subject: "数学",
+    content: "チャートプリント 1~14",
+    due: new Date(2023, 6, 26, 0, 0),
+    id: 143
+  }, {
+    subject: "数学",
+    content: "チャートプリント 15~53",
+    due: new Date(2023, 7, 21, 0, 0),
+    id: 144
+  }, {
+    subject: "数学",
+    content: "自主課題(チャート40題+)",
+    due: new Date(2023, 7, 17, 0, 0),
+    id: 143
+  }, {
+    subject: "国語",
+    content: "読書感想文",
+    due: new Date(2023, 7, 17, 0, 0),
+    id: 144
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
