@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>時間割</title>
+    <link rel="stylesheet" href="../stylesheet/homework.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../image/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="../js/manifest.json">
+    <script>if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('../js/service-worker.js').then(function () {
+                console.log("Service Worker is registered!!");
+            });
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="homeworks" id="homeworks">
+            <h1>時間割<span id="clas"></span> - <span class="italic">Daianger</span></h1>
+            <p class="navi"><a href="./index.html"> ← BACK</a></p>
+            <h3>選択(クリック)</h3>
+            <ul>
+                <li onclick="sort('A')">A組</li>
+                <li onclick="sort('B')">B組</li>
+                <li onclick="sort('C')">C組</li>
+                <li onclick="sort('D')">D組</li>
+            </ul>
+            <h3>前期補習</h3>
+            <table>
+                <tr>
+                    <th>日付</th>
+                    <th>1限</th>
+                    <th>2限</th>
+                    <th>3限</th>
+                    <th>4限</th>
+                </tr>
+                <tr>
+                    <td>7/24(月)</td>
+                    <td id="724-1"></td>
+                    <td id="724-2"></td>
+                    <td id="724-3"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>7/25(火)</td>
+                    <td id="725-1"></td>
+                    <td id="725-2"></td>
+                    <td id="725-3"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>7/26(水)</td>
+                    <td id="726-1"></td>
+                    <td id="726-2"></td>
+                    <td id="726-3"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>7/27(木)</td>
+                    <td id="727-1"></td>
+                    <td id="727-2"></td>
+                    <td id="727-3"></td>
+                    <td></td>
+                </tr>
+            </table>
+            <h3>後期補習</h3>
+            <table>
+                <tr>
+                    <th>日付</th>
+                    <th>1限</th>
+                    <th>2限</th>
+                    <th>3限</th>
+                    <th>4限</th>
+                </tr>
+                <tr>
+                    <td>8/17(木)</td>
+                    <td id="817-1"></td>
+                    <td id="817-2"></td>
+                    <td id="817-3"></td>
+                    <td id="817-4"></td>
+                </tr>
+                <tr>
+                    <td>8/18(金)</td>
+                    <td id="818-1"></td>
+                    <td id="818-2"></td>
+                    <td id="818-3"></td>
+                    <td id="818-4"></td>
+                </tr>
+                <tr>
+                    <th>日付</th>
+                    <th>1限</th>
+                    <th>2限</th>
+                    <th>3限</th>
+                    <th>4限</th>
+                </tr>
+                <tr>
+                    <td>8/21(月)</td>
+                    <td id="821-1"></td>
+                    <td id="821-2"></td>
+                    <td id="821-3"></td>
+                    <td id="821-4"></td>
+                </tr>
+                <tr>
+                    <td>8/22(火)</td>
+                    <td id="822-1"></td>
+                    <td id="822-2"></td>
+                    <td id="822-3"></td>
+                    <td id="822-4"></td>
+                </tr>
+                <tr>
+                    <td>8/23(水)</td>
+                    <td id="823-1"></td>
+                    <td id="823-2"></td>
+                    <td id="823-3"></td>
+                    <td id="823-4"></td>
+                </tr>
+                <tr>
+                    <td>8/24(木)</td>
+                    <td id="824-1"></td>
+                    <td id="824-2"></td>
+                    <td id="824-3"></td>
+                    <td id="824-4"></td>
+                </tr>
+                <tr>
+                    <td>8/25(金)</td>
+                    <td id="825-1"></td>
+                    <td id="825-2"></td>
+                    <td id="825-3"></td>
+                    <td id="825-4"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="../js/move.js"></script>
+    <script src="../js/schedule.js"></script>
+    <style>
+        body {
+            padding-bottom: 50px;
+        }
+
+        table {
+            padding: 30px;
+            border-radius: 30px;
+        }
+
+        th {
+            padding: auto;
+        }
+
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: #F5F5F7;
+                color: black;
+            }
+
+            table {
+                background-color: white;
+            }
+
+            table th,
+            table td {
+                border: solid 1px black;
+            }
+            li{
+                background-color: white;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #000000;
+                color: white;
+            }
+
+            table {
+                background-color: #1D1D1F;
+            }
+
+            table th,
+            table td {
+                border: solid 1px white;
+            }
+            li{
+                background-color: #1D1D1F;
+            }
+        }
+
+        th {
+            padding: 5px;
+        }
+
+        td {
+            padding: 3px;
+        }
+
+        ul {
+            list-style: none;
+        }
+        li{
+            display: inline-block;
+            padding: 8px;
+            border-radius: 30%;
+            margin-right: 25px;
+        }
+    </style>
+</body>
+
+</html>
