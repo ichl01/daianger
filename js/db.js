@@ -37,7 +37,7 @@ var obj = [
     id: 26
   }, {
     subject: "古文",
-    content: "テキスト: 9おらが春~14宇治拾遺物語",
+    content: "テキスト: 9おらが春~13宇治拾遺物語",
     due: new Date(2023, 7, 17, 0, 0),
     id: 27
   }, {
@@ -52,7 +52,7 @@ var obj = [
     id: 29
   }, {
     subject: "古文",
-    content: "テキスト: 15徒然草",
+    content: "テキスト: 14今昔物語, 15徒然草",
     due: new Date(2023, 7, 28, 0, 0),
     id: 30
   }, {
@@ -355,6 +355,41 @@ var obj = [
     content: "オープンキャンパス参加シート",
     due: new Date(2023, 7, 28, 0, 0),
     id: 158
+  }, {
+    subject: "英語",
+    content: "CROSSBEAM Pre-Standard Chapter 1,2",
+    due: new Date(2023, 8, 4, 0, 0),
+    id: 159
+  }, {
+    subject: "英語",
+    content: "CROSSBEAM Pre-Standard Chapter 3,4",
+    due: new Date(2023, 8, 12, 0, 0),
+    id: 160
+  }, {
+    subject: "英語",
+    content: "CROSSBEAM Pre-Standard Chapter 5,6",
+    due: new Date(2023, 8, 19, 0, 0),
+    id: 161
+  }, {
+    subject: "英語",
+    content: "CROSSBEAM Pre-Standard Chapter 7,8",
+    due: new Date(2023, 9, 2, 0, 0),
+    id: 162
+  }, {
+    subject: "英語",
+    content: "CROSSBEAM Pre-Standard Chapter 9,10",
+    due: new Date(2023, 9, 16, 0, 0),
+    id: 163
+  }, {
+    subject: "英語",
+    content: "CROSSBEAM Pre-Standard Chapter 11,12",
+    due: new Date(2023, 9, 23, 0, 0),
+    id: 164
+  }, {
+    subject: "英語",
+    content: "CROSSBEAM Pre-Standard Chapter 13~15",
+    due: new Date(2023, 9, 30, 0, 0),
+    id: 165
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
