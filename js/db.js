@@ -48,7 +48,7 @@ var obj = [
   }, {
     subject: "現代文",
     content: "プリント: 15(評)柏木博",
-    due: new Date(2023, 7, 28, 0, 0),
+    due: new Date(2023, 8, 4, 0, 0),
     id: 29
   }, {
     subject: "古文",
@@ -58,7 +58,7 @@ var obj = [
   }, {
     subject: "漢文",
     content: "プリント: 14 唐詩選, 15「太尉文正王...」",
-    due: new Date(2023, 7, 28, 0, 0),
+    due: new Date(2023, 8, 4, 0, 0),
     id: 31
   }, {
     subject: "数学",
@@ -390,6 +390,11 @@ var obj = [
     content: "CROSSBEAM Pre-Standard Chapter 13~15",
     due: new Date(2023, 9, 30, 0, 0),
     id: 165
+  }, {
+    subject: "数学",
+    content: "宿題テスト直し(一回目+二回目)",
+    due: new Date(2023, 8, 4, 0, 0),
+    id: 166
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
