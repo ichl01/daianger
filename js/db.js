@@ -395,6 +395,146 @@ var obj = [
     content: "宿題テスト直し(一回目+二回目)",
     due: new Date(2023, 8, 4, 0, 0),
     id: 166
+  }, {
+    subject: "現代文",
+    content: "16 (評)加村薩英",
+    due: new Date(2023, 8, 12, 0, 0),
+    id: 167
+  }, {
+    subject: "現代文",
+    content: "17 (小)千刈あがた",
+    due: new Date(2023, 9, 2, 0, 0),
+    id: 168
+  }, {
+    subject: "現代文",
+    content: "18 (評)山折哲雄",
+    due: new Date(2023, 9, 16, 0, 0),
+    id: 169
+  }, {
+    subject: "現代文",
+    content: "19 (評)池上嘉彦",
+    due: new Date(2023, 9, 23, 0, 0),
+    id: 170
+  }, {
+    subject: "現代文",
+    content: "20 (評)黒崎政男",
+    due: new Date(2023, 10, 6, 0, 0),
+    id: 171
+  }, {
+    subject: "現代文",
+    content: "21 (詩)黒垣りん",
+    due: new Date(2023, 10, 13, 0, 0),
+    id: 172
+  }, {
+    subject: "現代文",
+    content: "22 (歌)独楽",
+    due: new Date(2023, 10, 27, 0, 0),
+    id: 173
+  }, {
+    subject: "現代文",
+    content: "23 (小)井上靖",
+    due: new Date(2023, 11, 11, 0, 0),
+    id: 174
+  }, {
+    subject: "現代文",
+    content: "24 (評)佐藤卓~28 (評)石城謙吉",
+    due: new Date(2024, 0, 10, 0, 0),
+    id: 175
+  }, {
+    subject: "古文",
+    content: "16 十訓抄",
+    due: new Date(2023, 8, 12, 0, 0),
+    id: 176
+  }, {
+    subject: "古文",
+    content: "17 今物語",
+    due: new Date(2023, 8, 19, 0, 0),
+    id: 177
+  }, {
+    subject: "古文",
+    content: "実力考査解き直し",
+    due: new Date(2023, 9, 2, 0, 0),
+    id: 178
+  }, {
+    subject: "古文",
+    content: "18 徒然草",
+    due: new Date(2023, 9, 23, 0, 0),
+    id: 179
+  }, {
+    subject: "古文",
+    content: "19 古本説話集",
+    due: new Date(2023, 9, 30, 0, 0),
+    id: 180
+  }, {
+    subject: "古文",
+    content: "20 伊曽保物語",
+    due: new Date(2023, 10, 13, 0, 0),
+    id: 181
+  }, {
+    subject: "古文",
+    content: "21 徒然草",
+    due: new Date(2023, 10, 20, 0, 0),
+    id: 182
+  }, {
+    subject: "古文",
+    content: "22 蕪村自画賛",
+    due: new Date(2023, 11, 11, 0, 0),
+    id: 183
+  }, {
+    subject: "古文",
+    content: "23 古今著聞集",
+    due: new Date(2023, 11, 18, 0, 0),
+    id: 184
+  }, {
+    subject: "古文",
+    content: "24 俊頼髄脳~25沙石集+別途指示",
+    due: new Date(2024, 0, 10, 0, 0),
+    id: 185
+  }, {
+    subject: "漢文",
+    content: "15「太慰文正王...」",
+    due: new Date(2023, 8, 19, 0, 0),
+    id: 186
+  }, {
+    subject: "漢文",
+    content: "16 蒙求",
+    due: new Date(2023, 9, 2, 0, 0),
+    id: 187
+  }, {
+    subject: "漢文",
+    content: "17 十八史略",
+    due: new Date(2023, 9, 16, 0, 0),
+    id: 188
+  }, {
+    subject: "漢文",
+    content: "18 准南子",
+    due: new Date(2023, 9, 30, 0, 0),
+    id: 189
+  }, {
+    subject: "漢文",
+    content: "19 世説新話",
+    due: new Date(2023, 10, 6, 0, 0),
+    id: 190
+  }, {
+    subject: "漢文",
+    content: "20 孟子",
+    due: new Date(2023, 10, 20, 0, 0),
+    id: 191
+  }, {
+    subject: "漢文",
+    content: "新傾向 2",
+    due: new Date(2023, 10, 27, 0, 0),
+    id: 192
+  }, {
+    subject: "漢文",
+    content: "21 説苑",
+    due: new Date(2023, 11, 18, 0, 0),
+    id: 193
+  }, {
+    subject: "漢文",
+    content: "22 韓非子~27 白氏文集",
+    due: new Date(2024, 0, 10, 0, 0),
+    id: 194
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
