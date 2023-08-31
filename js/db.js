@@ -535,6 +535,16 @@ var obj = [
     content: "プリント:22 韓非子~27 白氏文集",
     due: new Date(2024, 0, 10, 0, 0),
     id: 194
+  }, {
+    subject: "英語",
+    content: "課題考査直し",
+    due: new Date(2023, 8, 5, 0, 0),
+    id: 195
+  }, {
+    subject: "化学基礎",
+    content: "課題考査直し",
+    due: new Date(2023, 8, 12, 0, 0),
+    id: 196
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
