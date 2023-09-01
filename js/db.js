@@ -115,12 +115,12 @@ var obj = [
     content: "今日ドリ 第7回",
     due: new Date(2023, 6, 27, 0, 0),
     id: 78
-  },{
+  }, {
     subject: "お知らせ",
     content: "期末考査以前の課題は削除いしました。お問い合わせいただければお探ししますのでお求めの方はサイト管理者までお問い合わせください。",
     due: new Date(2023, 6, 17, 0, 0),
     id: 99
-  },  {
+  }, {
     subject: "英語",
     content: "WIDE ANGLE Book 3: Lesson 3,4",
     due: new Date(2023, 6, 10, 0, 0),
@@ -155,7 +155,7 @@ var obj = [
     content: "授業ノート",
     due: new Date(2023, 6, 4, 0, 0),
     id: 118
-  },  {
+  }, {
     subject: "公共α",
     content: "スタディノート P.42~P.57",
     due: new Date(2023, 6, 4, 0, 0),
@@ -545,6 +545,331 @@ var obj = [
     content: "課題考査直し",
     due: new Date(2023, 8, 12, 0, 0),
     id: 196
+  }, {
+    subject: "数学",
+    content: "発展課題(課題考査2で70点以上の人と希望者)",
+    due: new Date(2023, 8, 4, 0, 0),
+    id: 197
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 8, 1, 0, 0),
+    id: 198
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 8, 5, 0, 0),
+    id: 199
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 8, 12, 0, 0),
+    id: 200
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第9回",
+    due: new Date(2023, 8, 13, 0, 0),
+    id: 201
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第11回",
+    due: new Date(2023, 8, 14, 0, 0),
+    id: 202
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 8, 15, 0, 0),
+    id: 203
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 8, 19, 0, 0),
+    id: 204
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 8, 22, 0, 0),
+    id: 205
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 8, 26, 0, 0),
+    id: 206
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 8, 29, 0, 0),
+    id: 207
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第13回",
+    due: new Date(2023, 8, 20, 0, 0),
+    id: 208
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第15回",
+    due: new Date(2023, 8, 21, 0, 0),
+    id: 209
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第17回",
+    due: new Date(2023, 8, 27, 0, 0),
+    id: 210
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第19回",
+    due: new Date(2023, 8, 28, 0, 0),
+    id: 211
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第21回",
+    due: new Date(2023, 9, 4, 0, 0),
+    id: 212
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第23回",
+    due: new Date(2023, 9, 5, 0, 0),
+    id: 213
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第25回",
+    due: new Date(2023, 9, 11, 0, 0),
+    id: 214
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第27回",
+    due: new Date(2023, 9, 12, 0, 0),
+    id: 214
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第29回",
+    due: new Date(2023, 9, 18, 0, 0),
+    id: 215
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第31回",
+    due: new Date(2023, 9, 19, 0, 0),
+    id: 216
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第33回",
+    due: new Date(2023, 9, 25, 0, 0),
+    id: 217
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第35回",
+    due: new Date(2023, 9, 26, 0, 0),
+    id: 218
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 9, 17, 0, 0),
+    id: 219
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 9, 20, 0, 0),
+    id: 220
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 9, 24, 0, 0),
+    id: 221
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 9, 27, 0, 0),
+    id: 222
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 9, 31, 0, 0),
+    id: 223
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第37回",
+    due: new Date(2023, 10, 1, 0, 0),
+    id: 224
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第39回",
+    due: new Date(2023, 10, 2, 0, 0),
+    id: 225
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第41回",
+    due: new Date(2023, 10, 8, 0, 0),
+    id: 226
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第43回",
+    due: new Date(2023, 10, 9, 0, 0),
+    id: 227
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第45回",
+    due: new Date(2023, 10, 15, 0, 0),
+    id: 228
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第47回",
+    due: new Date(2023, 10, 16, 0, 0),
+    id: 229
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第75回",
+    due: new Date(2023, 10, 22, 0, 0),
+    id: 230
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 10, 3, 0, 0),
+    id: 231
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 10, 10, 0, 0),
+    id: 232
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 10, 14, 0, 0),
+    id: 233
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 10, 21, 0, 0),
+    id: 234
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 10, 7, 0, 0),
+    id: 235
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 11, 8, 0, 0),
+    id: 236
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 11, 12, 0, 0),
+    id: 237
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 11, 15, 0, 0),
+    id: 238
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2023, 11, 19, 0, 0),
+    id: 239
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第77回",
+    due: new Date(2023, 11, 13, 0, 0),
+    id: 240
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第79回",
+    due: new Date(2023, 11, 14, 0, 0),
+    id: 241
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第81回",
+    due: new Date(2023, 11, 20, 0, 0),
+    id: 242
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第83回",
+    due: new Date(2024, 0, 10, 0, 0),
+    id: 243
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第85回",
+    due: new Date(2024, 0, 11, 0, 0),
+    id: 244
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第87回",
+    due: new Date(2024, 0, 17, 0, 0),
+    id: 245
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第89回",
+    due: new Date(2024, 0, 18, 0, 0),
+    id: 246
+  }, {
+    subject: "数学A",
+    content: "今日ドリ 第91回",
+    due: new Date(2024, 0, 25, 0, 0),
+    id: 247
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2024, 0, 12, 0, 0),
+    id: 248
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2024, 0, 16, 0, 0),
+    id: 249
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2024, 0, 19, 0, 0),
+    id: 250
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2024, 0, 23, 0, 0),
+    id: 251
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2024, 0, 26, 0, 0),
+    id: 252
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2024, 1, 13, 0, 0),
+    id: 253
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2024, 2, 1, 0, 0),
+    id: 254
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2024, 2, 8, 0, 0),
+    id: 255
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2024, 2, 12, 0, 0),
+    id: 256
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2024, 2, 15, 0, 0),
+    id: 257
+  }, {
+    subject: "数学",
+    content: "挑戦状",
+    due: new Date(2024, 2, 19, 0, 0),
+    id: 258
+  }, {
+    subject: "数学Ⅱ",
+    content: "今日ドリ 第1回",
+    due: new Date(2024, 2, 13, 0, 0),
+    id: 259
+  }, {
+    subject: "数学Ⅱ",
+    content: "今日ドリ 第3回",
+    due: new Date(2024, 2, 14, 0, 0),
+    id: 260
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
