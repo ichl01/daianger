@@ -890,6 +890,26 @@ var obj = [
     content: "駿台模試過去問",
     due: new Date(2023, 8, 19, 0, 0),
     id: 264
+  }, {
+    subject: "進路",
+    content: "科目選択本調査",
+    due: new Date(2023, 8, 22, 0, 0),
+    id: 265
+  }, {
+    subject: "進路",
+    content: "夢ナビLive仮登録",
+    due: new Date(2023, 8, 21, 0, 0),
+    id: 266
+  }, {
+    subject: "進路",
+    content: "学習実態調査(開始日)",
+    due: new Date(2023, 8, 19, 0, 0),
+    id: 267
+  }, {
+    subject: "進路",
+    content: "志望校調査",
+    due: new Date(2023, 8, 22, 0, 0),
+    id: 267
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
