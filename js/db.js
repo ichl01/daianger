@@ -870,6 +870,16 @@ var obj = [
     content: "今日ドリ 第3回",
     due: new Date(2024, 2, 14, 0, 0),
     id: 260
+  }, {
+    subject: "公共α",
+    content: "ファイル",
+    due: new Date(2023, 9, 16, 0, 0),
+    id: 261
+  }, {
+    subject: "数学",
+    content: "実力考査直し",
+    due: new Date(2023, 9, 2, 0, 0),
+    id: 262
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
