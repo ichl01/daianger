@@ -909,17 +909,17 @@ var obj = [
     subject: "進路",
     content: "志望校調査",
     due: new Date(2023, 8, 22, 0, 0),
-    id: 267
+    id: 268
   }, {
     subject: "公共α",
     content: "ファイル",
     due: new Date(2023, 9, 16, 0, 0),
-    id: 268
+    id: 269
   }, {
     subject: "数学",
     content: "実力考査直し",
     due: new Date(2023, 9, 2, 0, 0),
-    id: 269
+    id: 270
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
