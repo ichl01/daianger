@@ -632,22 +632,12 @@ var obj = [
     id: 213
   }, {
     subject: "数学A",
-    content: "今日ドリ 第25回",
-    due: new Date(2023, 9, 11, 0, 0),
-    id: 214
-  }, {
-    subject: "数学A",
-    content: "今日ドリ 第27回",
-    due: new Date(2023, 9, 12, 0, 0),
-    id: 214
-  }, {
-    subject: "数学A",
-    content: "今日ドリ 第29回",
+    content: "今日ドリ 第25,27回",
     due: new Date(2023, 9, 18, 0, 0),
-    id: 215
+    id: 214
   }, {
     subject: "数学A",
-    content: "今日ドリ 第31回",
+    content: "今日ドリ 第29,31回",
     due: new Date(2023, 9, 19, 0, 0),
     id: 216
   }, {
