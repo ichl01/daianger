@@ -910,6 +910,61 @@ var obj = [
     content: "実力考査直し",
     due: new Date(2023, 9, 2, 0, 0),
     id: 270
+  }, {
+    subject: "英語B",
+    content: "英語Bファイル",
+    due: new Date(2023, 9, 10, 0, 0),
+    id: 271
+  }, {
+    subject: "英語B",
+    content: "NT WORKBOOK Lesson 6~7",
+    due: new Date(2023, 9, 10, 0, 0),
+    id: 272
+  }, {
+    subject: "古文",
+    content: "授業ノート",
+    due: new Date(2023, 9, 10, 0, 0),
+    id: 273
+  }, {
+    subject: "化学基礎",
+    content: "徹底ドリル p.33~p.34",
+    due: new Date(2023, 9, 11, 0, 0),
+    id: 274
+  }, {
+    subject: "論理・表現",
+    content: "Workbook Lesson 10~15(p.40~p.63)",
+    due: new Date(2023, 9, 11, 0, 0),
+    id: 275
+  }, {
+    subject: "論理・表現",
+    content: "活用ノート",
+    due: new Date(2023, 9, 11, 0, 0),
+    id: 276
+  }, {
+    subject: "物理基礎",
+    content: "センサー P.28~33, P.82~89にあるStep1の例題とStep2の問題",
+    due: new Date(2023, 9, 12, 0, 0),
+    id: 277
+  }, {
+    subject: "英語A",
+    content: "英語Aノート",
+    due: new Date(2023, 9, 12, 0, 0),
+    id: 278
+  }, {
+    subject: "英語A",
+    content: "Advanced Exercise/Workbook Lesson 6~8",
+    due: new Date(2023, 9, 12, 0, 0),
+    id: 279
+  }, {
+    subject: "生物基礎",
+    content: "プログレス生物基礎 :P54~61の範囲を丸付けして提出",
+    due: new Date(2023, 9, 13, 0, 0),
+    id: 279
+  }, {
+    subject: "生物基礎",
+    content: "授業プリント: No23~No30を完成させたものをノートに貼って提出",
+    due: new Date(2023, 9, 13, 0, 0),
+    id: 280
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
