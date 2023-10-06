@@ -965,6 +965,11 @@ var obj = [
     content: "授業プリント: No23~No30を完成させたものをノートに貼って提出",
     due: new Date(2023, 9, 13, 0, 0),
     id: 280
+  }, {
+    subject: "英語",
+    content: "第二回実力考査直し",
+    due: new Date(2023, 9, 16, 0, 0),
+    id: 281
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
