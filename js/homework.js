@@ -199,11 +199,9 @@ change('finished')
 window.onload = () => {
     homework()
     if (storageAvailable("localStorage")) {
-        setTimeout(() => {
-            console.log("Daiangerに課題記録機能が追加!課題をダブルクリックして下に移動しよう")
-        }, timeout);
+        console.log("課題保存機能に対応しています。")
     } else {
-        console.log("残念、ローカルストレージは利用できません")
+        console.log("課題保存機能に対応していまません。")
     }
 
 }
