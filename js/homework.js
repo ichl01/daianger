@@ -44,11 +44,13 @@ function doit(id, state) {
         localStorage.removeItem(id);
         document.getElementById(id).remove()
         console.log("フラグ消したで")
+        document.location.reload()
     } else {
         localStorage.setItem(id, 1);
         doneid.push(id);
         document.getElementById(id).remove()
         console.log("フラグつけたで")
+        document.location.reload()
     }
 
 }
