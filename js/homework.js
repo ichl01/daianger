@@ -35,7 +35,7 @@ function storageAvailable(type) {
 }
 //完了済みの課題の一覧を取得
 for (let i = 0; i < localStorage.length; i++) {
-    const key = localStorage.key(i);
+    var key = localStorage.key(i);
     doneid.push(key);
 }
 
@@ -44,18 +44,27 @@ function doit(id, state) {
         localStorage.removeItem(id);
         document.getElementById(id).remove()
         console.log("フラグ消したで")
-        document.location.reload()
+        homework();
     } else {
         localStorage.setItem(id, 1);
         doneid.push(id);
         document.getElementById(id).remove()
         console.log("フラグつけたで")
-        document.location.reload()
+        homework();
     }
 
 }
 function homework() {
+    doneid = [];
+    for (let i = 0; i < localStorage.length; i++) {
+        var key = localStorage.key(i);
+        doneid.push(key);
+    }
 
+    document.getElementById("upcoming").innerHTML = "";
+    document.getElementById("others").innerHTML = "";
+    document.getElementById("past").innerHTML = "";
+    document.getElementById("finished").innerHTML = "";
     for (var i = 0; i < obj.length; i++) {
 
         //課題締切の月日を定義
@@ -185,6 +194,7 @@ function change(target) {
 }
 change('past')
 change('others')
+change('finished')
 
 window.onload = () => {
     homework()
