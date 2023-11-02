@@ -1010,6 +1010,51 @@ var obj = [
     content: "自主課題",
     due: new Date(2023, 9, 30, 0, 0),
     id: 289
+  }, {
+    subject: "英語",
+    content: "UNITE STAGE 3 Lesson 1,2",
+    due: new Date(2023, 10, 6, 0, 0),
+    id: 290
+  }, {
+    subject: "英語",
+    content: "UNITE STAGE 3 Lesson 3,4",
+    due: new Date(2023, 10, 13, 0, 0),
+    id: 291
+  }, {
+    subject: "英語",
+    content: "UNITE STAGE 3 Lesson 5,6",
+    due: new Date(2023, 10, 20, 0, 0),
+    id: 292
+  }, {
+    subject: "英語",
+    content: "UNITE STAGE 3 Lesson 7,8",
+    due: new Date(2023, 11, 11, 0, 0),
+    id: 293
+  }, {
+    subject: "英語",
+    content: "UNITE STAGE 3 Lesson 9,10",
+    due: new Date(2023, 11, 18, 0, 0),
+    id: 294
+  }, {
+    subject: "英語",
+    content: "UNITE STAGE 3 Lesson 11,12",
+    due: new Date(2023, 11, 25, 0, 0),
+    id: 295
+  }, {
+    subject: "英語",
+    content: "UNITE STAGE 3 Lesson 13 ~ Optional Lesson 2",
+    due: new Date(2024, 0, 5, 0, 0),
+    id: 296
+  }, {
+    subject: "英語",
+    content: "Focus on Listening 1~10",
+    due: new Date(2023, 11, 11, 0, 0),
+    id: 297
+  }, {
+    subject: "英語",
+    content: "Focus on Listening 11~20",
+    due: new Date(2024, 0, 5, 0, 0),
+    id: 298
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
