@@ -1055,6 +1055,86 @@ var obj = [
     content: "Focus on Listening 11~20",
     due: new Date(2024, 0, 5, 0, 0),
     id: 298
+  }, {
+    subject: "英語B",
+    content: "英語Bファイル",
+    due: new Date(2023, 10, 30, 0, 0),
+    id: 299
+  }, {
+    subject: "英語B",
+    content: "NT WORKBOOK Lesson 8~9",
+    due: new Date(2023, 10, 30, 0, 0),
+    id: 300
+  }, {
+    subject: "論理・表現",
+    content: "英語の構文150「学習ノート」",
+    due: new Date(2023, 11, 6, 0, 0),
+    id: 301
+  }, {
+    subject: "英語A",
+    content: "SKYWARD「予習・復習ノート」",
+    due: new Date(2023, 11, 5, 0, 0),
+    id: 302
+  }, {
+    subject: "英語A",
+    content: "Long Run Reading「設問集」",
+    due: new Date(2023, 11, 5, 0, 0),
+    id: 303
+  }, {
+    subject: "英語A",
+    content: "Heartening「Advanced Exercise/Workbook Lesson 9,10」",
+    due: new Date(2023, 11, 5, 0, 0),
+    id: 304
+  }, {
+    subject: "古文",
+    content: "授業ノート",
+    due: new Date(2023, 11, 1, 0, 0),
+    id: 305
+  }, {
+    subject: "地理総合",
+    content: "授業プリント ファイル",
+    due: new Date(2023, 11, 6, 0, 0),
+    id: 306
+  }, {
+    subject: "公共α",
+    content: "スタディノート P.78~91",
+    due: new Date(2023, 10, 30, 0, 0),
+    id: 307
+  }, {
+    subject: "化学基礎",
+    content: "化学基礎の徹底ドリル p.35~39",
+    due: new Date(2023, 10, 30, 0, 0),
+    id: 308
+  }, {
+    subject: "物理基礎",
+    content: "センサー物理基礎 P.37~46 Step1の例題11~16 Step2の48~61",
+    due: new Date(2023, 11, 6, 0, 0),
+    id: 309
+  }, {
+    subject: "物理基礎",
+    content: "センサー物理基礎 P.86 Step1の例題31,32 P.88 Step2の136,139",
+    due: new Date(2023, 11, 6, 0, 0),
+    id: 310
+  }, {
+    subject: "物理基礎",
+    content: "センサー物理基礎 P.92~96 Step1の例題33~35 Step2の143~149",
+    due: new Date(2023, 11, 6, 0, 0),
+    id: 311
+  }, {
+    subject: "生物基礎",
+    content: "授業プリント No31~No40 を完成させたものをノートに貼って提出",
+    due: new Date(2023, 11, 5, 0, 0),
+    id: 312
+  }, {
+    subject: "生物基礎",
+    content: "プログレス生物基礎:P40~63の範囲を丸付けして提出",
+    due: new Date(2023, 11, 5, 0, 0),
+    id: 313
+  }, {
+    subject: "数学II",
+    content: "教科書を大切にしようプリント",
+    due: new Date(2023, 10, 27, 0, 0),
+    id: 314
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
