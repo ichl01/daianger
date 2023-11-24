@@ -1135,6 +1135,21 @@ var obj = [
     content: "教科書を大切にしようプリント",
     due: new Date(2023, 10, 27, 0, 0),
     id: 314
+  }, {
+    subject: "現代文",
+    content: "授業ノート「『間』の感覚」から",
+    due: new Date(2023, 11, 4, 0, 0),
+    id: 315
+  }, {
+    subject: "漢文",
+    content: "「朝三暮四」以降のノート",
+    due: new Date(2023, 10, 30, 0, 0),
+    id: 316
+  }, {
+    subject: "歴史総合",
+    content: "ノート(新政府の誕生 ~ 日露戦争が与えた影響)",
+    due: new Date(2023, 11, 5, 0, 0),
+    id: 317
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
