@@ -1155,6 +1155,16 @@ var obj = [
     content: "資料ノート(ワーク) P.24~67, 90~91, 92~97(3,4,5,9)",
     due: new Date(2023, 11, 4, 0, 0),
     id: 318
+  }, {
+    subject: "数学II+B",
+    content: "テスト直し",
+    due: new Date(2023, 11, 11, 0, 0),
+    id: 319
+  }, {
+    subject: "数学",
+    content: "発展課題(数学II+B合計140点以上)",
+    due: new Date(2023, 11, 11, 0, 0),
+    id: 320
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
