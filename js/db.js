@@ -1157,12 +1157,12 @@ var obj = [
     id: 318
   }, {
     subject: "数学II+B",
-    content: "テスト直し",
+    content: "テスト直し(掲載忘れてました申し訳ありません)",
     due: new Date(2023, 11, 11, 0, 0),
     id: 319
   }, {
     subject: "数学",
-    content: "発展課題(数学II+B合計140点以上)",
+    content: "発展課題(数学II+B合計140点以上)(掲載忘れてました申し訳ありません)",
     due: new Date(2023, 11, 11, 0, 0),
     id: 320
   }];
