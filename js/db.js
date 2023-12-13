@@ -1157,14 +1157,44 @@ var obj = [
     id: 318
   }, {
     subject: "数学II+B",
-    content: "テスト直し(掲載忘れてました申し訳ありません)",
+    content: "テスト直し",
     due: new Date(2023, 11, 11, 0, 0),
     id: 319
   }, {
     subject: "数学",
-    content: "発展課題(数学II+B合計140点以上)(掲載忘れてました申し訳ありません)",
+    content: "発展課題(数学II+B合計140点以上)",
     due: new Date(2023, 11, 11, 0, 0),
     id: 320
+  }, {
+    subject: "英語",
+    content: "テスト直し",
+    due: new Date(2023, 11, 18, 0, 0),
+    id: 321
+  }, {
+    subject: "化学基礎",
+    content: "テスト直し",
+    due: new Date(2023, 11, 19, 0, 0),
+    id: 322
+  }, {
+    subject: "数学B",
+    content: "チャートプリント数学B「数列編」(1~8)",
+    due: new Date(2023, 11, 18, 0, 0),
+    id: 323
+  }, {
+    subject: "数学B",
+    content: "チャートプリント数学B「数列編」(9~24)",
+    due: new Date(2023, 11, 25, 0, 0),
+    id: 324
+  }, {
+    subject: "数学",
+    content: "過去問に挑戦プリント",
+    due: new Date(2024, 0, 5, 0, 0),
+    id: 325
+  }, {
+    subject: "数学",
+    content: "大学への数学 一対一対応の演習(数学A) 場合の数&確率1~12",
+    due: new Date(2024, 0, 10, 0, 0),
+    id: 326
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
