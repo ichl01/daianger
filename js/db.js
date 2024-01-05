@@ -240,6 +240,61 @@ var obj = [
     content: "白地図プリント「オーストラリア」",
     due: new Date(2024, 0, 12, 0, 0),
     id: 339
+  }, {
+    subject: "英語",
+    content: "QUEST Stage3 Lesson1~8",
+    due: new Date(2024, 0, 10, 0, 0),
+    id: 340
+  }, {
+    subject: "英語",
+    content: "QUEST Stage3 Lesson9~10",
+    due: new Date(2024, 0, 15, 0, 0),
+    id: 341
+  }, {
+    subject: "英語",
+    content: "QUEST Stage3 Lesson11~12",
+    due: new Date(2024, 0, 22, 0, 0),
+    id: 342
+  }, {
+    subject: "英語",
+    content: "QUEST Stage3 Lesson13~15",
+    due: new Date(2024, 0, 29, 0, 0),
+    id: 343
+  }, {
+    subject: "英語",
+    content: "WIDE ANGLE BOOK 4 Lesson1~4",
+    due: new Date(2024, 1, 13, 0, 0),
+    id: 344
+  }, {
+    subject: "英語",
+    content: "WIDE ANGLE BOOK 4 Lesson5~12",
+    due: new Date(2024, 2, 7, 0, 0),
+    id: 345
+  }, {
+    subject: "英語",
+    content: "WIDE ANGLE BOOK 4 Lesson13~15",
+    due: new Date(2024, 2, 7, 0, 0),
+    id: 346
+  }, {
+    subject: "英語",
+    content: "LISTENING TRIAL Stage 2.5 1~10",
+    due: new Date(2024, 0, 22, 0, 0),
+    id: 347
+  }, {
+    subject: "英語",
+    content: "LISTENING TRIAL Stage 2.5 11~20",
+    due: new Date(2024, 1, 13, 0, 0),
+    id: 348
+  }, {
+    subject: "英語",
+    content: "LISTENING TRIAL Stage 2.5 Extra Listening 1~10",
+    due: new Date(2024, 2, 7, 0, 0),
+    id: 349
+  }, {
+    subject: "英語",
+    content: "LISTENING TRIAL Stage 2.5 Extra Listening 11~20",
+    due: new Date(2024, 2, 18, 0, 0),
+    id: 350
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
