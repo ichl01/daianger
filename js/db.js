@@ -295,6 +295,91 @@ var obj = [
     content: "LISTENING TRIAL Stage 2.5 Extra Listening 11~20",
     due: new Date(2024, 2, 18, 0, 0),
     id: 350
+  }, {
+    subject: "数学",
+    content: "テスト直し+発展課題(+70点)",
+    due: new Date(2024, 0, 15, 0, 0),
+    id: 351
+  }, {
+    subject: "現代文",
+    content: "29 小説新傾向問題",
+    due: new Date(2024, 0, 15, 0, 0),
+    id: 352
+  }, {
+    subject: "現代文",
+    content: "30 評論「和の思想」",
+    due: new Date(2024, 0, 22, 0, 0),
+    id: 353
+  }, {
+    subject: "現代文",
+    content: "1 評論「白秋望景」",
+    due: new Date(2024, 1, 13, 0, 0),
+    id: 354
+  }, {
+    subject: "現代文",
+    content: "2 随想「ブラリひょうたん」",
+    due: new Date(2024, 2, 11, 0, 0),
+    id: 355
+  }, {
+    subject: "現代文",
+    content: "3 小説「母の死と新しい母」",
+    due: new Date(2024, 2, 11, 0, 0),
+    id: 356
+  }, {
+    subject: "古文",
+    content: "4 「竹取物語」",
+    due: new Date(2024, 0, 15, 0, 0),
+    id: 357
+  }, {
+    subject: "古文",
+    content: "5 「大鏡」",
+    due: new Date(2024, 0, 29, 0, 0),
+    id: 358
+  }, {
+    subject: "古文",
+    content: "6 「今昔物語集」",
+    due: new Date(2024, 1, 13, 0, 0),
+    id: 359
+  }, {
+    subject: "古文",
+    content: "7 「宇治拾遺物語」",
+    due: new Date(2024, 2, 11, 0, 0),
+    id: 360
+  }, {
+    subject: "古文",
+    content: "8 「沙石集」",
+    due: new Date(2024, 2, 11, 0, 0),
+    id: 361
+  }, {
+    subject: "古文",
+    content: "実力考査解き直し",
+    due: new Date(2024, 2, 18, 0, 0),
+    id: 362
+  }, {
+    subject: "漢文",
+    content: "28 「論衡」",
+    due: new Date(2024, 0, 22, 0, 0),
+    id: 363
+  }, {
+    subject: "漢文",
+    content: "29 「杜子春伝」",
+    due: new Date(2024, 0, 29, 0, 0),
+    id: 364
+  }, {
+    subject: "漢文",
+    content: "30 「戦国策」",
+    due: new Date(2024, 2, 11, 0, 0),
+    id: 365
+  }, {
+    subject: "漢文",
+    content: "1 「蒙求」",
+    due: new Date(2024, 2, 11, 0, 0),
+    id: 366
+  }, {
+    subject: "漢文",
+    content: "2 「史記」",
+    due: new Date(2024, 2, 18, 0, 0),
+    id: 367
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
