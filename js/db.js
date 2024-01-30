@@ -380,6 +380,41 @@ var obj = [
     content: "2 「史記」",
     due: new Date(2024, 2, 18, 0, 0),
     id: 367
+  }, {
+    subject: "保健",
+    content: "ノート提出(未,再提出)",
+    due: new Date(2024, 0, 31, 0, 0),
+    id: 368
+  }, {
+    subject: "生物基礎",
+    content: "授業プリント No.41~No.51",
+    due: new Date(2024, 1, 5, 0, 0),
+    id: 369
+  }, {
+    subject: "生物基礎",
+    content: "プログレス生物基礎:P.64~83の範囲を丸付けして提出",
+    due: new Date(2024, 1, 5, 0, 0),
+    id: 370
+  }, {
+    subject: "生物基礎",
+    content: "授業中に出題しているスプレッドシート、フォームへの解答",
+    due: new Date(2024, 1, 9, 0, 0),
+    id: 371
+  }, {
+    subject: "情報",
+    content: "資料ノート(ワーク) P68~89,92~97(6,7,8)",
+    due: new Date(2024, 1, 5, 0, 0),
+    id: 372
+  }, {
+    subject: "公共α",
+    content: "スタディノート P92〜101",
+    due: new Date(2024, 1, 5, 0, 0),
+    id: 373
+  }, {
+    subject: "公共β",
+    content: "(2/9) 振り返りフォーム",
+    due: new Date(2024, 1, 5, 0, 0),
+    id: 374
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
