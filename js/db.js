@@ -430,6 +430,31 @@ var obj = [
     content: "Long Run Reading「設問集」Unit4~9",
     due: new Date(2024, 1, 6, 0, 0),
     id: 377
+  }, {
+    subject: "物理基礎",
+    content: "やったもの",
+    due: new Date(2024, 1, 7, 0, 0),
+    id: 378
+  }, {
+    subject: "古文",
+    content: "授業ノート",
+    due: new Date(2024, 1, 7, 0, 0),
+    id: 379
+  }, {
+    subject: "論理・表現",
+    content: "英語の構文150「学習ノート」",
+    due: new Date(2024, 1, 8, 0, 0),
+    id: 380
+  }, {
+    subject: "漢文",
+    content: "授業ノート",
+    due: new Date(2024, 1, 8, 0, 0),
+    id: 381
+  }, {
+    subject: "化学基礎",
+    content: "化学基礎の徹底ドリル p.41,42",
+    due: new Date(2024, 1, 8, 0, 0),
+    id: 382
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
