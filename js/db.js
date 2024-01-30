@@ -455,6 +455,21 @@ var obj = [
     content: "化学基礎の徹底ドリル p.41,42",
     due: new Date(2024, 1, 8, 0, 0),
     id: 382
+  }, {
+    subject: "現代文",
+    content: "授業ノート「小景異情」のページを開いて提出",
+    due: new Date(2024, 1, 9, 0, 0),
+    id: 383
+  }, {
+    subject: "英語B",
+    content: "英語Bファイル Lesson11",
+    due: new Date(2024, 1, 9, 0, 0),
+    id: 384
+  }, {
+    subject: "英語B",
+    content: "NT WORKBOOK Lesson11",
+    due: new Date(2024, 1, 9, 0, 0),
+    id: 385
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
