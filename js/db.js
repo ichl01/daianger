@@ -470,6 +470,16 @@ var obj = [
     content: "NT WORKBOOK Lesson11",
     due: new Date(2024, 1, 9, 0, 0),
     id: 385
+  }, {
+    subject: "数学",
+    content: "テスト直し",
+    due: new Date(2024, 1, 13, 0, 0),
+    id: 386
+  }, {
+    subject: "数学",
+    content: "実テ過去問(70点以上)",
+    due: new Date(2024, 1, 13, 0, 0),
+    id: 387
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
