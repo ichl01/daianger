@@ -480,6 +480,11 @@ var obj = [
     content: "実テ過去問(70点以上)",
     due: new Date(2024, 1, 13, 0, 0),
     id: 387
+  }, {
+    subject: "数学B",
+    content: "テスト直し",
+    due: new Date(2024, 1, 28, 0, 0),
+    id: 388
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
