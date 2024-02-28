@@ -128,11 +128,6 @@ var obj = [
   }, {
     subject: "数学",
     content: "挑戦状",
-    due: new Date(2024, 2, 1, 0, 0),
-    id: 254
-  }, {
-    subject: "数学",
-    content: "挑戦状",
     due: new Date(2024, 2, 8, 0, 0),
     id: 255
   }, {
