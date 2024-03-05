@@ -480,6 +480,16 @@ var obj = [
     content: "テスト直し",
     due: new Date(2024, 1, 28, 0, 0),
     id: 388
+  }, {
+    subject: "数学",
+    content: "チャートプリント「図形と方程式編」",
+    due: new Date(2024, 2, 7, 0, 0),
+    id: 389
+  }, {
+    subject: "数学",
+    content: "一対一対応の演習(数学A)奇数番号",
+    due: new Date(2024, 2, 7, 0, 0),
+    id: 390
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
