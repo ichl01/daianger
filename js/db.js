@@ -490,6 +490,11 @@ var obj = [
     content: "一対一対応の演習(数学A) 場合の数+確率(奇数番号)",
     due: new Date(2024, 2, 7, 0, 0),
     id: 390
+  }, {
+    subject: "数学",
+    content: "実力考査直し",
+    due: new Date(2024, 2, 18, 0, 0),
+    id: 391
   }];
 //データベースの並び替え(日付順)
 obj.sort(function (a, b) {
