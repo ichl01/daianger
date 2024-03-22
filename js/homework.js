@@ -193,7 +193,7 @@ function change(target) {
     }
 }
 change('past')
-change('others')
+// change('others')
 change('finished')
 
 window.onload = () => {
